@@ -9,7 +9,8 @@
 6. Stop the Program
 ## PROGRAM
 
-client.py 
+#client.py 
+
 import socket
 c = socket.socket()
 c.connect(('localhost', 9999))
@@ -34,7 +35,7 @@ while True:
    break
 c.close()   
 
-server.py
+#server.py
 
 import socket
 s = socket.socket()
